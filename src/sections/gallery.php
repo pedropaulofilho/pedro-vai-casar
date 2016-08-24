@@ -21,7 +21,7 @@
         <img src="img/gallery/_small-2-2_thumb.png" alt="" />
       </a>
       <a href="img/gallery/_small-2-3.jpg" class="item-gallery ripple small">
-        <img src="img/gallery/_small-2-3_thumb.png" alt="" />
+        <img src="img/gallery/_small-2-3_thumb.jpg" alt="" />
       </a>
       <a href="img/gallery/_small-2-4.jpg" class="item-gallery ripple small">
         <img src="img/gallery/_small-2-4_thumb.png" alt="" />
