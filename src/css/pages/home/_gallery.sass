@@ -1,0 +1,42 @@
+.gallery
+  .gallery-content
+    display: flex
+    justify-content: center
+    align-items: center
+    &:hover
+      .col .item-gallery
+        opacity: .3
+    .col
+      display: flex
+      flex-wrap: wrap
+      width: 33.333%
+      .item-gallery
+        display: block
+        width: 100%
+        line-height: 0
+        transition: all 350ms ease
+        img
+          max-width: 100%
+        &.small
+          max-width: 50%
+        &:hover
+          opacity: 1
+
+
+// reset gallery (plugin)
+.lg-backdrop
+  background: #FFFFFF
+  &.in
+    opacity: .8
+
+.lg-toolbar
+  display: none
+
+.lg-actions
+  .lg-next,
+  .lg-prev
+    background: transparent
+    font-size: 40px
+    color: $color-primary
+    &:hover
+      color: $color-black
