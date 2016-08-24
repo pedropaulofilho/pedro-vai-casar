@@ -1,6 +1,0 @@
-    </div>
-
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.min.js"></script>
-  </body>
-</html>
