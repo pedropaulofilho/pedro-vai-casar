@@ -11,11 +11,24 @@ $(document).ready(function(){
       console.log('Error');
       $name.addClass('invalid');
     }else {
-      console.log('Confirm -> ', name.val());
+      console.log( 'Confirm' );
+      $.ajax({
+        url: 'http://carlosjms-com-br.umbler.net/confirm.php?email='+ $name.val() +'&token=pedraovaicasarporra',
+        success: function() {
+          $name.after(
+            '<span class="response">Confirmação realizada com sucesso!</span>'
+          );
+          $name.val('');
+        },
+        error: function( err ) {
+          console.log( err );
+        }
+      });
     }
   });
 
   $form.find('input').on('keyup', function(){
+    $('.response').remove();
     if($(this).val() == '') {
       $(this).addClass('invalid');
     }else {

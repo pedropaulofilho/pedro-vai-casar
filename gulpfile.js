@@ -24,7 +24,7 @@ gulp.pathsList = {
     scripts: 'src/js/**/*.js',
     styles: 'src/css/**/*.sass',
     images: 'src/img/**/*.*',
-    pages: 'src/**/*.php',
+    pages: 'src/**/*.html',
     scriptsDest: 'www/js',
     stylesDest: 'www/css',
     imagesDest: 'www/img',
