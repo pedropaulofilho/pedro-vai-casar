@@ -12,8 +12,10 @@
 <body>
 <header class="main-header">
 	<nav class="main-menu">
-		<span class="menu-button"></span>
-		<ul class="menu-list-link">
+		<span class="menu-button js-menu-button"></span>
+		<span class="ico-close js-ico-close"></span>
+		<span class="ico-search js-ico-search"></span>
+		<ul class="menu-list-link js-menu">
 			<li class="menu-item-link">Home</li>
 			<li class="menu-item-link">História</li>
 			<li class="menu-item-link">Fotos</li>

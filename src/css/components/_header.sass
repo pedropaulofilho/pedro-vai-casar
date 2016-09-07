@@ -1,4 +1,55 @@
 .main-header
+  position: relative
   .main-menu
-    .menu-list-link   
-      display: none 
+    position: absolute
+    width: 80%
+    left: 50%
+    background-color: #f5f6f7
+    z-index: 99
+    margin: 100px 0 100px -40%
+    .menu-button
+      left: 10px
+      top: 10px
+      background: url("../img/ico-burguer.png") no-repeat
+      position: absolute
+      width: 28px
+      height: 25px
+      cursor: pointer
+    .ico-close
+      display: none
+      position: absolute
+      background: url("../img/ico-close.png") no-repeat
+      right: 10px
+      top: 10px
+      z-index: 999
+      width: 29px
+      height: 29px
+			cursor: pointer
+    .ico-search
+      position: absolute
+      background: url("../img/ico-search.png") no-repeat
+      right: 10px
+      top: 10px
+      z-index: 999
+      width: 29px
+      height: 29px
+			cursor: pointer
+    .menu-list-link
+      display: none
+      padding: 165px 0
+      z-index: 1
+      box-shadow: 0 0 30px rgba(0,0,0,0.3)
+      background: url("../img/background-pattern.svg")
+      background-size: 150%
+      background-position: 100% 35%
+      text-align: center
+      top: 0
+      z-index: 9999
+      list-style: none
+      text-transform: uppercase
+      .menu-item-link
+        font-family: $font-abril
+        color: #94896d
+        font-size: 40px
+        font-weight: 400
+      // display: none
