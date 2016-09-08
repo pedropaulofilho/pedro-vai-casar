@@ -14,7 +14,8 @@ $(document).ready(function(){
       console.log( 'Confirm' );
       $.ajax({
         url: 'http://carlosjms-com-br.umbler.net/confirm.php?email='+ $name.val() +'&token=pedraovaicasarporra',
-        success: function() {
+        success: function( response ) {
+          console.log( response );
           $name.after(
             '<span class="response">Confirmação realizada com sucesso!</span>'
           );
