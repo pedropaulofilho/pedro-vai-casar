@@ -24,6 +24,7 @@
 		</ul>
 	</nav>
 </header>
+
 <div class="main-banner">
   <div class="content">
     <img src="img/joyce-e-pedro.svg" class="logo" alt="Logo Casamento Joyce & Pedro">
@@ -33,20 +34,22 @@
 </div>
 
 <div class="main">
-<section class="history">
+
+	<section class="history">
   <div class="content">
     <h2 class="section-title">Nossa História</h2>
     <p class="section-description">
-      Tudo começou em 04 dezembro de 2011, nos encontramos pela primeira vez no casamento de uma das nossas melhores amigas 
-      neste dia percebemos que apesar de simpatizarmos, tínhamos opiniões bem diferentes sobre alguns assuntos, e como já disse 
-      Isaac Newton, os opostos se atraem. Começamos nossa amizade que com o tempo foi ganhando um formato mais colorido, então 
-      começamos a namorar e ficou muito claro que um completava o outro e que juntos conseguimos nos transformar em pessoas melhores. 
-      Então para o bem da galáxia e nossa felicidade suprema decidimos nos casar, estamos super animados para essa nova fase e sabemos 
+      Tudo começou em 04 dezembro de 2011, nos encontramos pela primeira vez no casamento de uma das nossas melhores amigas
+      neste dia percebemos que apesar de simpatizarmos, tínhamos opiniões bem diferentes sobre alguns assuntos, e como já disse
+      Isaac Newton, os opostos se atraem. Começamos nossa amizade que com o tempo foi ganhando um formato mais colorido, então
+      começamos a namorar e ficou muito claro que um completava o outro e que juntos conseguimos nos transformar em pessoas melhores.
+      Então para o bem da galáxia e nossa felicidade suprema decidimos nos casar, estamos super animados para essa nova fase e sabemos
       que desafios virão mas com certeza nenhum deles é páreo para nós dois.
     </p>
   </div>
 </section>
-<section class="gallery">
+
+	<section class="gallery">
   <div id="gallery" class="gallery-content">
 
     <div class="col">
@@ -90,13 +93,14 @@
 
   </div>
 </section>
-<section class="gift">
+
+	<section class="gift">
   <div class="gift-intro">
     <div class="content">
       <h2 class="section-title">Quero presentear</h2>
       <p class="section-description">
-        Ficamos muito felizes em saber que você quer nos ajudar, para facilitar criamos esta lojinha onde você pode 
-        comprar o presente que quiser e ele vem direto para gente.  
+        Ficamos muito felizes em saber que você quer nos ajudar, para facilitar criamos esta lojinha onde você pode
+        comprar o presente que quiser e ele vem direto para gente.
       </p>
 
       <div class="filter-shop">
@@ -1000,26 +1004,50 @@
 
   </div>
 </section>
-<section class="confirm">
-  <div class="content">
 
-    <h2 class="section-title">Confirmar a Presença</h2>
-    <p class="section-description">
-      Estamos esperando por você, por favor coloque o nome que estava no seu convite e confirme sua presença.
-    </p>
+	<section class="confirm">
+	  <div class="content">
 
-    <form id="formConfirm" class="form">
-      <label class="input">
-        <input type="text" name="name" placeholder="Nome que está no convite" value="">
-      </label>
-      <button type="submit" class="button button-large ripple" name="button">Enviar</button>
-    </form>
+	    <h2 class="section-title">Confirmar a Presença</h2>
+	    <p class="section-description">
+	      Estamos esperando por você, por favor coloque o nome que estava no seu convite e confirme sua presença.
+	    </p>
 
-  </div>
-</section>
-<section class="location"></section>
-    </div>
+	    <form id="formConfirm" class="form">
+	      <label class="input">
+	        <input type="text" name="name" placeholder="Nome que está no convite" value="">
+	      </label>
+	      <button type="submit" class="button button-large ripple" name="button">Enviar</button>
+	    </form>
 
+	  </div>
+	</section>
+
+	<section class="location">
+		<div class="content">
+
+			<div class="info">
+				<h2 class="section-title">Como Chegar</h2>
+				<p class="section-description">
+					Musum ipsum. cacilds vids litro abertis. <br>
+					Quem manda na minha terra.
+				</p>
+				<form id="formLocation" class="form">
+					<label class="input">
+		        <input type="text" name="address" placeholder="Onde você está?" value="">
+		      </label>
+					<button type="submit" class="button button-primary button-large ripple">Gerar Rota</button>
+				</form>
+			</div>
+
+			<div class="map" id="map"></div>
+
+		</div>
+	</section>
+
+</div>
+
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.min.js"></script>
 
